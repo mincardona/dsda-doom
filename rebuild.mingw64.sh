@@ -49,7 +49,7 @@ strip "$dist_dir"/*.exe
 
 echo "=== zipping files..."
 cd "$dist_dir"
-zip -j -r dsda-doom-"$(date +"%Y%m%d_%H%M%S")"-win64.zip *
+zip -r dsda-doom-"$(date +"%Y%m%d_%H%M%S")"-win64.zip *
 
 cd "$dsda_dir"
 echo "=== done."
